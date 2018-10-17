@@ -12,12 +12,14 @@ def loop_iterator(number_of_times)
   end
 end 
 
+#TIMES
 def times_iterator(number_of_times)
   number_of_times.times do
     puts "Welcome to Flatiron School's Web Development Course!"
   end  
 end
 
+#WHILE
 def while_iterator(number_of_times)
   counter = 0
   while counter < number_of_times
@@ -26,6 +28,8 @@ def while_iterator(number_of_times)
   end
 end
 
+
+#UNTIL
 def until_iterator(number_of_times)
   counter = 0
   until counter == number_of_times
